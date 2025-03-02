@@ -1,7 +1,10 @@
 _Content updated 2 Mar 2025_
 # Solidity-Price-Converter
 
-Welcome to the our Solidity Basics!! 
+___Welcome to the our Solidity Basics!!___
+
+
+
 
 We will be using Solidity and Foundry for our codes this time.
 
