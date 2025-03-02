@@ -4,6 +4,8 @@ _Content updated 2 Mar 2025_
 ___Welcome to the our Solidity Basics!!___
 
 
+.
+.
 
 
 We will be using Solidity and Foundry for our codes this time.
