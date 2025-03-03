@@ -9,7 +9,13 @@ ___Welcome to the our Solidity Basics!!___
 
 
 We will be using Solidity and Foundry for our codes this time.
+
+
 This is the basics skill to step into Blockchain and Defi World!
+
+
+.
+
 
 This is a repo practice extract from Patrick Collins's Solidity Course.
 
