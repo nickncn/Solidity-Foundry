@@ -12,6 +12,7 @@ We will be using Solidity and Foundry for our codes this time.
 
 
 Basic skills for your first step into Blockchain and Defi World!
+
 This practice allow you to connect with Metamask and Chainlink aggregator with testing out the contracts.
 
 
