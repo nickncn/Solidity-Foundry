@@ -1,0 +1,46 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.16; // solidity versions
+
+contract SimpleStorage {
+        // basic types: boolean, uint, int, address, bytes
+        // favourite number get initialised to zero if no value is given
+        bool hasFavouriteNumber = true; 
+        uint256 public myFavouriteNumber; //0
+
+        //uint256[]   listOfFavouriteNumbers; //[0, 78, 90]
+        struct Person{
+            uint256 favouriteNumber;
+            string name;
+        }
+
+        //dynamic array
+        Person[] public listOfPeople; //[]
+
+        // Person public Batman = Person({favouriteNumber: 7, name:"Batman"});
+        // Person public Lisa = Person({favouriteNumber: 16, name:"Lisa"});
+     
+        bytes32 favouriteBytes32 = "cat";
+
+
+        mapping (string => uint256) public nametoFavouritenumber;
+
+        function store(uint256 _favouriteNumber) public virtual{
+            myFavouriteNumber = _favouriteNumber;
+        }
+
+        // view, pure
+        function retrieve() public view returns(uint256){
+            return myFavouriteNumber;
+            
+        }
+        // calldata, memory, storage
+        function addPerson(string memory _name, uint256 _favouriteNumber) public {
+        listOfPeople.push( Person(_favouriteNumber, _name) );
+        nametoFavouritenumber[_name] = _favouriteNumber;
+
+        }
+}
+
+contract SimpleStorage2 {}
+contract SimpleStorage3 {}
+contract SimpleStorage4 {}
